@@ -2,12 +2,12 @@
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
-// Código para cadastro e ixibição das cartas de cidades
+// Codigo para cadastro e ixibição das cartas de cidades
 
 int main() {
     //Definindo variáveis para atributos de cada cidade 
     int codigo;
-    char nome{100};
+    char nome[100];
     int população;
     float area; 
     float pib;
@@ -24,11 +24,8 @@ int main() {
     printf("Digite o nome da cidade: \n");
     scanf("%c")
 
-
-
-
-
-
-
     return 0;
+
+
+    
 }
