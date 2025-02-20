@@ -5,25 +5,34 @@
 
 
 int main() {
-    int carta = 1;
-    char estado = 'A';
-    int codigo = 'A01';
-    char nome_da_cidade [20] = "saopaulo";
-    float população = 12325000;
-    float area = 1521.11;
-    float pib = 699.28;
-    float numeros_de_pontos_turisticos = 50;
+    int Carta1;
+    char Estado = 'A';
+    int Codigo = 'A01';
+    char Nome_da_cidade [20] = "saopaulo";
+    float População = 12325000;
+    float Area = 1521.11;
+    float Pib = 699.28;
+    float Numeros_de_pontos_turisticos = 50;
+
+    //Entrada dos dados das cartas
+    printf("Exibir Cartar 1: ");
+    scanf("%c", &Carta1);
+
+    printf("Exibir Estado A:");
+    scanf("%d", &Estado);
+
+
 
 
     //Exibição de dados da Carta 
-    printf("A carta é: %c\n", carta);
-    printf("O estado é: %d\n", estado);
-    printf("O código é: %f\n", codigo);
-    printf("Nome da cidade é: %s\n", nome_da_cidade);
-    printf("População: %d habitantes\n, populacao");
-    printf("Área: %.2f Km²\n", area);
-    printf("Pib: %.2f bilhões\n", pib);
-    printf("Números de porntos turísticos: %d\n", numeros_de_pontos_turisticos);
+    printf("Carta é: %c\n", Carta1);
+    printf("Estado: %d\n", Estado);
+    printf("Código: %f\n", Codigo);
+    printf("Nome da cidade: %s\n", Nome_da_cidade);
+    printf("População: %d\n, populacao");
+    printf("Área: %.2f Km²\n", Area);
+    printf("Pib: %.2f bilhões\n", Pib);
+    printf("Números de porntos turísticos: %d\n", Numeros_de_pontos_turisticos);
 
 
 
