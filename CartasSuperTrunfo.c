@@ -16,8 +16,15 @@ int main() {
 
 
     //Exibição de dados da Carta 
-    printf("A carta é: %d\n", &carta);
-    printf("O estado é: %d\n", &estado);
+    printf("A carta é: %c\n", carta);
+    printf("O estado é: %d\n", estado);
+    printf("O código é: %f\n", codigo);
+    printf("Nome da cidade é: %s\n", nome_da_cidade);
+    printf("População: %d habitantes\n, populacao");
+    printf("Área: %.2f Km²\n", area);
+    printf("Pib: %.2f bilhões\n", pib);
+    printf("Números de porntos turísticos: %d\n", numeros_de_pontos_turisticos);
+
 
 
 
