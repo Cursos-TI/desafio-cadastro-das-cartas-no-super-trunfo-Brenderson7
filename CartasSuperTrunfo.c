@@ -4,14 +4,14 @@
 
 int main() {
     // Definição das variáveis para os dados da Carta 1
-    char carta1, carta2; //Carta 1 e 2
-    char estado1, estado2; //Estado 1 e 2
-    char codigo1[10], codigo2[10]; //Codigo 1 e 2
-    char nome_da_cidade1[50], nome_da_cidade2[50]; //Nome da cidade 1 e 2
-    int populacao1, populacao2; //Pupalação 1 e 2
-    float area1, area2; //Area 1 e 2
-    float pib1, pib2; //Pib 1 e 2
-    int pontos_turisticos1, pontos_turisticos2; //Pontos turisticos 1 e 2
+    char carta1, carta2; 
+    char estado1, estado2; 
+    char codigo1[10], codigo2[10]; 
+    char nome_da_cidade1[50], nome_da_cidade2[50]; 
+    int populacao1, populacao2;
+    float area1, area2; 
+    float pib1, pib2; 
+    int pontos_turisticos1, pontos_turisticos2; 
 
     // Entrada dos dados da Carta 1
     printf("\nCadastro da Carta 1\n");
