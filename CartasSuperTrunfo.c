@@ -76,6 +76,7 @@ int main() {
 
     printf("\n--- Dados da Carta 1 ---\n");
 
+    printf("Carta1:\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome: %s\n", nome1);
@@ -88,6 +89,7 @@ int main() {
 
     printf("\n--- Dados da Carta 2 ---\n");
 
+    printf("Carta2:\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome: %s\n", nome2);
